@@ -1,0 +1,24 @@
+//why is requestAnimationFrame
+ans=https://stackoverflow.com/questions/38709923/why-is-requestanimationframe-better-than-setinterval-or-settimeout
+==============
+//{x: 13, y: 15}
+    // array me snake ki head x&y hogi jab render hota snake
+]
+food = {x: 6, y: 7}; // food create a object
+
+
+
+
+===index.js
+function gameEngine(){
+    // part 1:update the snake variable array & food
+    if(isCollide(snakeArr)){ //snake takra gaya to kya hoga
+
+    --// main logic starts here
+    inputDir = {x: 0, y: 1} //start the game
+    moveSound.play(); //game start hogi to sound play hoga
+    
+    inputDir.x = 0;   // arrowup hoga to x 0 he hoga
+    inputDir.y = -1;  // food ko uper krna hoga to(y ke opposite) y -axis ko minus(-1) krna hoga because y start from +
+           
+     
